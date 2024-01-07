@@ -1,5 +1,6 @@
 import React from 'react'
 import { NewBudget } from './NewBudget'
+import { BudgetControl } from './BudgetControl'
 
 export const Header = ({budget,setBudget, setIsValidBudget,isValidBudget}) => {
   return (
@@ -8,7 +9,7 @@ export const Header = ({budget,setBudget, setIsValidBudget,isValidBudget}) => {
 
         {
           isValidBudget ? (
-            <p>Control Presupuestp</p>
+            <BudgetControl budget={budget} />
           ) : (
             <NewBudget
               budget={budget}

@@ -32,7 +32,7 @@ export const NewBudget = ({budget,setBudget, setIsValidBudget}) => {
             <div 
                 className='campo'
             >
-                <label htmlFor="" className=''>Define Budget:</label>
+                <label htmlFor="" className=''>Define your Budget:</label>
                 <input 
                     type="text" 
                     placeholder='Add new budget'
